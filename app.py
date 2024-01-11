@@ -102,7 +102,7 @@ if page == "EDA":
         if selected_col_x and selected_col_y:
             chart_title = f"Relationship of {' '.join(selected_col_x.split('_')).title()} vs. {' '.join(selected_col_y.split('_')).title()}"
 
-            if st.toggle("Satisfaction Hue on Scatterplot"):
+            if st.toggle("Diagnosis Hue on Scatterplot"):
                 st.plotly_chart(px.scatter(df, x = selected_col_x, y = selected_col_y, title = chart_title, color = 'diagnosis'))
             else: 
                 st.plotly_chart(px.scatter(df, x = selected_col_x, y = selected_col_y, title = chart_title))
