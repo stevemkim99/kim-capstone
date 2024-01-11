@@ -16,7 +16,7 @@ In this project, my primary task is to read the breast cancer dataset into a Jup
 ### Creating a Baseline Model
 First we created a baseline model, which essentially is just the diagnosis of all the benign tumors in the data. This makes the most "basic" prediction for the tumor diagnosis, it will not be accurate but we can use it as a baseline of whether or not our regression model will be closer or further away from predicting a better or worse sale price. The baseline model scored a 62.7%, meaning if we were to diagnosis every tumor as benign we would be accurate 62.7% of the time.
 
-## Creating Machine Learning Models
+### Creating Machine Learning Models
 Once we have created a baseline models, we can use machine learning to see if these models will perform better than our baseline model. We used StandardScaler, KNN(K Nearest Neighbors), LogisticRegression, and RandomForest. LogisticRegression scored the best testing accuracy with a whopping score of 97.9%. This is extremely high and much better than our baseline model, there is only a 2.1% chance of error with the LogisticRegression model. StandardScaler, KNN, and RandomForest still all scored high with scores of 95.8%, 97.2%, and 97.2% respectively. 
 
 
