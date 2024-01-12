@@ -163,7 +163,7 @@ if page == "Modeling":
 # PREDICTIONS
 
 if page == "Make Predictions":
-    st.title(":ribbon: Make Predictions on Airline Satisfaction Dataset")
+    st.title(":ribbon: Make Predictions on the Breast Cancer Dataset")
 
     # Create sliders for user to input data
     st.subheader("Adjust the sliders to input data:")
